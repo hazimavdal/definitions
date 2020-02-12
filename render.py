@@ -9,6 +9,7 @@ IPA = "ipa"
 SENSES = "senses"
 DESC = "desc"
 EXAMPLES = "examples"
+ABBR = "abbr"
 
 
 def examples(ex):
@@ -41,6 +42,7 @@ def replaceAll(s, d):
 
 def render(man):
     word = man[WORD]
+    abbr = sense_groups(man[ABBR])
     ipa = man[IPA]
     overview = man[OVERVIEW]
     senses = sense_groups(man[SENSES])
@@ -57,7 +59,7 @@ def render(man):
 
         html = replaceAll(html, m)
 
-        with open(f"build/{word}.html", "w+") as f:
+        with open(f"build/{abbr}.html", "w+") as f:
             f.write(html)
 
 
