@@ -1,5 +1,6 @@
 import json
 import glob
+import os
 
 WORD = "word"
 OVERVIEW = "overview"
@@ -61,6 +62,9 @@ def render(man):
 
 
 def renderAll():
+
+    if not os.path.exists("build"):
+        os.makedirs("build")
 
     for word in glob.glob('./words/*.json'):
         with open(word, "r") as f:
