@@ -1,0 +1,35 @@
+{
+    "word": "succumptious",
+    "ipa": "səˈkəməs",
+    "overview": "Succumptious is a semantically-fluid word whose meaning is fully dependent on the context. Common uses of the word include distinguishing between antonyms.",
+    "senses": {
+        "adjective": [
+            {
+                "desc": "Relating to the clarity of why a logical statement is false.",
+                "examples": [
+                    "He made a succumptious claim that primes are finite."
+                ]
+            },
+            {
+                "desc": "Tedious and unnecessarily long.",
+                "examples": [
+                    "My homework writeup was succumptious"
+                ]
+            },
+            {
+                "desc": "Relating to the nature of promises made by politicians.",
+                "examples": [
+                    "I will vote for Jim Joe because he promised to make succumptious infrastructural reforms."
+                ]
+            }
+        ],
+        "adverb": [
+            {
+                "desc": "Performing a task in a very efficient manner, or performing it in the worst possible way.",
+                "examples": [
+                    "I had to fire him because he did everything succumptiously."
+                ]
+            }
+        ]
+    }
+}
