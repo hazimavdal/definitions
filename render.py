@@ -42,7 +42,7 @@ def replaceAll(s, d):
 
 def render(man):
     word = man[WORD]
-    abbr = sense_groups(man[ABBR])
+    abbr = man[ABBR]
     ipa = man[IPA]
     overview = man[OVERVIEW]
     senses = sense_groups(man[SENSES])
